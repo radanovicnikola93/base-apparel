@@ -50,3 +50,6 @@ body {
     grid-template-rows: 1fr 3fr 6fr;
 }
 
+.logo {
+    padding: 2rem;
+}
