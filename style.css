@@ -27,6 +27,7 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1rem;
+
     background-color: hsl(0, 100%, 98%);
     background-image: var(--clr-gradient-one);
     background-repeat: no-repeat;
@@ -34,5 +35,18 @@ body {
     background-position: center;
 }
 
+.container {
+    height: 100vh;
+    width: 100%;
 
+    /* grid */
+    display: grid;
+    grid-template-areas: 
+    "logo"
+    "content"
+    "subscription";
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 6fr;
+}
 
