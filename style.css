@@ -52,16 +52,19 @@ body {
 
 /* LOGO */
 .logo {
+    grid-area: logo;
     padding: 2rem;
 }
 
 /* HERO-IMAGE */
 .hero-image img {
+    grid-area: content;
     width: 100%;
 }
 
 /* MAIN */
 .main {
+    grid-area: subscription;
     padding: 2rem;
     text-align: center;
 
