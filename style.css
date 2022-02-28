@@ -54,9 +54,6 @@ body {
     padding: 2rem;
 }
 
-.hero-image {
-    background-image: url(./images/hero-mobile.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.hero-image img {
+    width: 100%;
 }
