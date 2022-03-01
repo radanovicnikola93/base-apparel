@@ -142,12 +142,12 @@ body {
     /* CONTAINER */
     .container {
         grid-template-areas: 
-        "logo hero"
-        "content hero"
-        "content hero"
+        ". logo logo logo logo hero hero hero"
+        ". content content content contennt hero hero hero"
+        ". content content content contennt hero hero hero"
         ;
 
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(3, 1fr);
     }
 
@@ -159,5 +159,10 @@ body {
 
     .image--mobile {
         display: none;
+    }
+
+    /* MAIN */
+    .main {
+        text-align: left;
     }
 }
