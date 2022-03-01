@@ -144,8 +144,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
 
-    /* displayed only if invalid email is provided */
-    display: none;
+    visibility: hidden;
 }
 
 .email-input .error-img img {
@@ -174,6 +173,23 @@ body {
     background: none;
     width: 100%;
     height: 100%;
+}
+
+.error-text {
+    padding-top: 1rem;
+    margin-left: 1rem;
+
+    visibility: hidden;
+}
+
+.error-text p {
+    font-weight: 400;
+    color: red;
+}
+
+.warning {
+    /* displayed only if invalid email is provided */
+    visibility: visible !important;
 }
 
 @media (min-width: 800px) {
