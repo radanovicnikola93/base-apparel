@@ -120,11 +120,20 @@ body {
     border: 1px solid var(--desaturated-red);
     border-radius: 3rem;
     opacity: .5;
+
+    text-indent: 1rem;
 }
 
 .main__subscription input::placeholder {
     color: var(--desaturated-red);
+}
+
+.main__subscription input::placeholder:focus {
     padding-left: 1rem;
+}
+
+.main__subscription input:focus {
+    outline: 1px solid red;
 }
 
 .main__subscription .error-img {
