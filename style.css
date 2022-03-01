@@ -57,9 +57,17 @@ body {
 }
 
 /* HERO-IMAGE */
-.hero-image img {
+.hero-image {
     grid-area: content;
+    
+}
+
+.hero-image img {
     width: 100%;
+}
+
+.image--desktop {
+    display: none;
 }
 
 /* MAIN */
