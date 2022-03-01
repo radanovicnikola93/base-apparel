@@ -138,6 +138,8 @@ body {
 }
 
 @media (min-width: 800px) {
+
+    /* CONTAINER */
     .container {
         grid-template-areas: 
         "logo hero"
@@ -147,5 +149,15 @@ body {
 
         grid-template-columns: 2fr 1fr;
         grid-template-rows: repeat(3, 1fr);
+    }
+
+    /* IMAGE */
+    .image--desktop {
+        display: block;
+        height: 100%;
+    }
+
+    .image--mobile {
+        display: none;
     }
 }
