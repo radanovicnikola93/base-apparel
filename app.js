@@ -6,7 +6,7 @@ const successText = document.querySelector(".success-text");
 
 btn.addEventListener("click", () => {
     mailRgx = /\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/;
-  if (mailRgx.test(input.value)) {
+  if (mailRgx.test(input.value) || input.value === " ") {
       errorImg.classList.remove("warning");
       errorText.classList.remove("warning");
     successText.classList.add("success");
