@@ -133,6 +133,7 @@ body {
     margin-left: -4rem;
     background-image: var(--clr-gradient-two);
     z-index: 99;
+    cursor: pointer;
 
     display: flex;
     justify-content: center;
