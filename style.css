@@ -167,5 +167,8 @@ body {
     /* MAIN */
     .main {
         text-align: left;
+        
+        /* flex */
+        align-items: flex-start;
     }
 }
